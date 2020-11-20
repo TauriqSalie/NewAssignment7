@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Facebook.MainPage">
+
+    <StackLayout>
+
+        <Image Source="FacebookLogo.png"
+       WidthRequest="{OnPlatform iOS=300, Android=200}"
+       HorizontalOptions="Start" />
+
+            <Grid>
+                <Grid.RowDefinitions>
+                <RowDefinition Height="50" />
+            </Grid.RowDefinitions>
+            
+                <Grid.ColumnDefinitions>
+              
+                </Grid.ColumnDefinitions>
+
+
+
+            <Button Text="HomePage" HorizontalOptions="Start"/>
+            <Button Text="Notifications" HorizontalOptions="Center"/>
+            <Button Text="NewsFeed" HorizontalOptions="End"/>
+                
+            <StackLayout Spacing="7" HorizontalOptions="CenterAndExpand"/>
+            
+
+        </Grid>
+        </StackLayout>
+</ContentPage>   
+                
+
+            
+
+            
+            
+     
+          
+           
+            
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
